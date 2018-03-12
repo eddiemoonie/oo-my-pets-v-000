@@ -10,7 +10,7 @@ class Owner
     OWNERS << self
   end
 
-  def say_species
+  def say_species(species)
     "I am a #{species}"
   end
 
