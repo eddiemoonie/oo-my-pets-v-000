@@ -26,6 +26,9 @@ class Owner
     OWNERS.count
   end
 
+  def buy_fish(name)
+    pet[:fish] << Fish.new(name)
+
   def walk_dogs
 
   end
